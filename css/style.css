@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.iphone {
+  width: 340px;
+  height: 600px;
+  border: 8px solid #000;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.iphone::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  height: 20px;
+  background: #000;
+  border-radius: 0 0 10px 10px;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background: rgb(64, 65, 77);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.back{
+    color: dodgerblue;
+}
+.user__img{
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+.user{
+    text-align: center;
+    h5{
+        margin-top: 22px;
+        font-size: 18px;
+        color: #fff;
+    }
+    p{
+        font-size: 14px;
+        color: dodgerblue;
+    }
+}
+.imgg{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.content {
+ background: url(../img/e7d30a649104448116bdb716e83cbb9d.jpg)no-repeat center;
+ background-size: cover;
+  height: calc(100% - 100px);
+  padding: 12px ;
+  overflow: auto;
+}
+.content {
+    overflow: scroll; /* or auto if needed */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+  
+  .content::-webkit-scrollbar {
+    display: none;
+  }
+ 
+.form {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
+.form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    text-indent: 12px;
+}
+.message{
+    background: #fff;
+   
+   padding: 12px;
+   max-width: 200px;
+   border-radius: 12px 12px 12px 0;
+   margin-bottom: 12px;
+}
+.message.me{
+    background: #EBFFDA;
+    border-radius: 12px 12px 0 12px;
+    margin-left: calc(100% - 200px);
+}
+.btn{
+    cursor: pointer;
+    img{
+        display: block;
+        width: 30px;
+
+    }
+}
