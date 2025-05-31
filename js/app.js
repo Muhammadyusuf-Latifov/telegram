@@ -18,14 +18,19 @@ function sendMessage() {
 const DATA = [
   "ha",
   "nma gap",
-  "qettasan",
-  "qale",
-  "oqishla qale",
+  "qettasz",
+
   "👍👍👍👍",
   "qachon",
-  "kasalmisan",
-    " 🤣 🤣 🤣",
-  "yogee"
+  "kasalmisz",
+  " 🤣 🤣 🤣",
+  "yogee",
+  "hmm",
+  "szi sevaman🫶♥️♥️♥️♥️♥️",
+  "ovqatlandizmi🥰",
+  "szni korgm keldi🥰",
+  "szi yaxshi koraamnn♥️♥️♥️♥️",
+  "szi sogindm♥️♥️",
 ];
 function reply() {
     let value = DATA[Math.floor(Math.random() * DATA.length)]
